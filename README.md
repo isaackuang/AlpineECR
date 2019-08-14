@@ -4,7 +4,7 @@
 version: "3"
 services:
   ecr:
-    image: isaackuang/ecr-auth
+    image: isaackuang/ecr
     environment:
        - AWS_KEY=
        - AWS_SECRET=
